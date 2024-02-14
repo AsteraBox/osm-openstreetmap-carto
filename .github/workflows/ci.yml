@@ -1,7 +1,6 @@
-name: CI
+name: Default CI
 on:
-  - push
-  - pull_request
+  - workflow_dispatch
 jobs:
   syntax:
     runs-on: ubuntu-22.04
