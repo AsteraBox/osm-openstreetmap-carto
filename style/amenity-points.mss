@@ -2304,7 +2304,7 @@
         text-fill: @tourism;
         text-face-name: @bold-fonts; /*rendered bold to improve visibility since theme parks tend to have crowded backgrounds*/
       }
-      [feature = 'amenity_kindergarten'],
+/*      [feature = 'amenity_kindergarten'], */
       [feature = 'amenity_school'],
       [feature = 'amenity_college'],
       [feature = 'amenity_university'] {
