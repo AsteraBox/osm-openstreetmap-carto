@@ -2137,6 +2137,7 @@ Layer:
             AND name IS NOT NULL
             AND building IS NOT NULL
             AND building NOT IN ('no')
+            AND building NOT IN ('kindergarten')
             AND way_area < 4000000*POW(!scale_denominator!*0.001*0.28,2)
           ORDER BY way_area DESC
         ) AS building_text
